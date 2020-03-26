@@ -148,12 +148,4 @@ while not gameover:
     screen.blit(label,(350,600))
     pygame.display.update()
 
-
-if gameover:
-    screen.fill((0,0,0))
-    text='Game Over'
-    pygame.draw.rect(screen,(0,0,0),(300,600,350,80))
-    label=myfont.render(text,0,white)
-    screen.blit(label,(350,600))
-
 pygame.quit()
