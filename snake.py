@@ -38,8 +38,8 @@ def update_food(score):
     if [x,y] in snake:
         update_food(score) 
         return                            
-    food.append(x)k/    food.atkl.
-    ppend(y)
+    food.append(x)
+    food.append(y)
     return score+5
 
 def move_down():
